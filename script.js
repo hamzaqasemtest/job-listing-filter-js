@@ -174,7 +174,6 @@ async function handleSearch(e) {
       job.languages.join(" ").toLowerCase().includes(searchTerm) ||
       job.tools.join(" ").toLowerCase().includes(searchTerm)
   );
-
   displayData(filteredData);
 }
 
